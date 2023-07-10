@@ -1,6 +1,9 @@
 {
   "name": "typescript-playground",
   "packageManager": "yarn@3.6.1",
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput"
+  },
   "devDependencies": {
     "typescript": "^5.1.6"
   }
