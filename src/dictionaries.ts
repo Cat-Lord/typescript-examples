@@ -15,3 +15,5 @@ const cats: {
 };
 
 cats.x.birth.getFullYear(); // CARE - this is allowed by default !
+
+export {};

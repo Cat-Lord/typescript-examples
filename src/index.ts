@@ -11,3 +11,5 @@ export async function addNumbers(a: number, b: number) {
   console.log("Program started");
   console.log("A + B: ", await addNumbers(3, 5));
 })();
+
+export {};

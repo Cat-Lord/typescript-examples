@@ -31,3 +31,5 @@ if (coinObj instanceof Error) {
 } else {
   coinObj; // { name: string, value: number }
 }
+
+export {};

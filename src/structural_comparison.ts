@@ -25,3 +25,5 @@ function checkCar(car: { model: string; year: number }) {
 checkCar(new Car()); // OK
 checkCar(new Truck()); // OK
 checkCar(vehicle); // OK
+
+export {};

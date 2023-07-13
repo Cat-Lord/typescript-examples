@@ -27,3 +27,5 @@ only_two_numbers_array.push(4);
 const numPair: readonly [number, number] = [4, 5];
 // numPair.push(4);     // throws (a bit misleading) error: Property push does not exist on type readonly [number, number]
 // numPair.pop();       // (expected) error as well
+
+export {};
