@@ -15,3 +15,7 @@ redefinition clashes.
 // usually at the end of each file, if not present, feel free to add it
 export {};
 ```
+
+## Naming convention
+
+This code base uses underscore to split words in file names. This is only used for clarity as this repository is not an actual code being deployed and used elsewhere. Sometimes variables are defined with underscores as well only to prove a point that the variable name is trying to point out (e.g. `is_a_type` is trying to check whether something is a type).
