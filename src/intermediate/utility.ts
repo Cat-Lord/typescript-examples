@@ -13,7 +13,7 @@ type Colors =
 // Extract
 //
 //
-type StringColors = Extract<Colors, string>; // : string (not literal types though)
+export type StringColors = Extract<Colors, string>; // : string (not literal types though)
 
 // notice: we want at least the red value - we don't need an exact match,
 // this is a minimum requirement for our extraction
