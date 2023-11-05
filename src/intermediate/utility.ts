@@ -27,6 +27,17 @@ type RGBArrayColors = Extract<Colors, [number, number, number]>; // : [number, n
 // what if we search for something that's not in the type ?
 type WeirdColors = Extract<Colors, boolean>; // : never 😊
 
+// this works on types and interfaces which are not literal
+type AdvancedColorExtraction = Extract<keyof Document, `query${string}`>;
+// gives everything that starts with the word `query`:
+//    "queryCommandEnabled"
+//    "queryCommandIndeterm"
+//    "queryCommandState"
+//    "queryCommandSupported"
+//    "queryCommandValue"
+//    "querySelector"
+//    "querySelectorAll"
+
 //
 //
 // Exclude (opposite of extract)
